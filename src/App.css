@@ -13,7 +13,12 @@ body{
 }
 
 
-
+@media screen and (max-width: 480px) {
+  body{
+    transform: scale(1.0.8);
+    transform-origin: top left;
+  }
+}
 
 /* adds */
 
@@ -295,7 +300,7 @@ body{
 }
 @media screen and (max-width: 550px) {
   .home-container{
-    width: 500px;
+    width: 450px;
   }
   .img-header-container{
     height: 300px;
@@ -303,6 +308,10 @@ body{
   }
   .title-home{
     margin-top: 80px;
+  }
+  .btn-home1{
+    width: 80px;
+
   }
 }
 @media screen and (max-width: 400px) {
@@ -1004,6 +1013,7 @@ body{
 @media screen and (max-width: 550px) {
   .feture-container{
     width: 400px;
+    margin-right: 40px;
   }
   .box-text-feture{
     width: 300px;
@@ -1022,6 +1032,11 @@ body{
   margin-right: 50px;
 } 
   .text-boxtext{
+  margin-right: 50px;
+  font-size: medium;
+  width: 350px;
+}
+.text-boxtext2{
   margin-right: 50px;
   font-size: medium;
   width: 350px;
@@ -1272,6 +1287,20 @@ body{
 @media screen and (max-width: 600px) {
   .lastText-container{
     margin-right: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .lastText-container{
+    margin-right: 50px;
+  }
+  .img-lasttext1{
+    padding-right: 8px;
+  }
+  .img-lasttext2{
+    padding-right: 8px;
+  }
+  .img-lasttext3{
+    padding-right: 8px;
   }
 }
 @media screen and (max-width: 450px) {
