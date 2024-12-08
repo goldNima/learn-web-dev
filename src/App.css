@@ -13,12 +13,7 @@ body{
 }
 
 
-@media screen and (max-width: 480px) {
-  body{
-    transform: scale(1.0.8);
-    transform-origin: top left;
-  }
-}
+
 
 /* adds */
 
