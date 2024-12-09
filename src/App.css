@@ -5,6 +5,7 @@
 }
 
 body{
+  width: auto;
   background-color:#F4F5F7;
   direction: rtl;
   margin: 0;
@@ -151,15 +152,17 @@ body{
 }
 @media screen and (max-width: 500px) {
   .header-container{
-    width: 450px;
+    width: 300px;
   }
   .left-side-header-container{
-    margin-right: 110px;
+    margin-right: 30px;
     margin-top: 50px;
   }
   .btn-main-heacer-container{
-    margin-right: 80px;
-    width: 450px;
+    margin-right: 30px;
+    width: 250px;
+    font-size: small;
+    gap: 15px;
   }
 }
 @media screen and (max-width: 370px) {
@@ -293,7 +296,7 @@ body{
 }
 @media screen and (max-width: 550px) {
   .home-container{
-    width: 450px;
+    width: 400px;
   }
   .img-header-container{
     height: 300px;
@@ -642,21 +645,23 @@ body{
 }
 @media screen and (max-width: 600px) {
   .main-container-part1{
-    width: 450px;
+    width: 350px;
   }
   .text1-main-part1{
     margin-right: 50px;
   }
   .title0main-part1{
     margin-right: 50px;
+    font-size: x-large;
   }
   .text-main-part1{
     margin-right: 50px;
-    width: 350px;
+    width: 250px;
     padding-right: 20px;
     font-size: small;
   }
 }
+
 @media screen and (max-width: 360px) {
   .main-container-part1{
     width: 300px;
@@ -745,18 +750,23 @@ body{
 }
 @media screen and (max-width: 600px) {
   .main-container-part2{
-    width: 450px;
+    width: 350px;
   }
   .text1-main-part2{
-    margin-right: 20px;
+    margin-right: 10px;
   }
   .title-main-part2{
-    margin-right: 20px;
+    margin-right: 10px;
+    font-size: x-large;
   }
   .text-main-part2{
-    margin-right: 20px;
-    width: 350px;
+    margin-right: 10px;
+    width: 250px;
     font-size: small;
+  }
+  .btn-header-main-part2{
+    margin-right: 10px;
+    padding-right: 10px;
   }
 }
 @media screen and (max-width: 360px) {
